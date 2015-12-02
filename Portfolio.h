@@ -50,24 +50,3 @@ public:
 
 }
 
-/*The second derived class will be BankAccount. This derived class contains all the relevant information for the Bank Account Portfolio. */
-class BankAccount: public MainAccount
-{
-public:
-	int Display Main_Menu();
-	void Choice_Main_Menu();
-
-
-}
-
-/*This derived class is the Doubly Linked List Node which is derived from base class StockAccount. */ 
-class Node_StockAccount: public StockAccount
-{
-public:
-}
-
-/*This derived class is the Doubly Linked List which is derived from the base class StockAccount. */
-class DDL_StockAccount: public StockAccount
-{
-public:
-}
